@@ -1,0 +1,13 @@
+{
+  "name": "jest-set-system-time-bug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.5.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "test-broken": "jest --config jest.config.broken.js"
+  }
+}
